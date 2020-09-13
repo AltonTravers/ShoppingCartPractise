@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/main.css" />
+    <script
+      src="https://kit.fontawesome.com/9efeb9fe68.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Shopping Cart</title>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar" id="navbar">
+      <div class="container">
+        <h1>SHOP</h1>
+        <ul class="navbar-right">
+          <li><a href="index.html" class="btn home">HOME</a></li>
+          <li><a href="#" class="btn about">ABOUT</a></li>
+          <li>
+            <a href="cart.html" class="btn cart"
+              >CART <span class="item-no"></span
+            ></a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- shopping-cart -->
+    <section class="shopping-cart">
+      <div class="container">
+        <table class="cart-table">
+          <thead class="cart-header">
+            <th>PRODUCT</th>
+            <th>PRICE</th>
+            <th>QUANTITY</th>
+            <th>TOTAL</th>
+          </thead>
+          <tbody class="table-body">
+            <tr class="cart-item">
+              <!-- <td class="item-product">
+                <a href=""><i class="fas fa-times-circle"></i></a>
+                <div class="item-pic">
+                  <img src="./img/hoodle2.jfif" alt="" />
+                </div>
+                <span class="item-name">Hoodle1</span>
+              </td>
+              <td>$<span class="price">15.00</span></td>
+              <td>
+                <a href=""><i class="fas fa-minus-circle"></i></a>
+                <span class="quantity">1</span>
+                <a href=""><i class="fas fa-plus-circle"></i></a>
+              </td>
+              <td>$<span class="priceTimes">15.00</span></td> -->
+            </tr>
+            <tr class="cart-check-out">
+              <td style="border: none"></td>
+              <td style="border: none"></td>
+              <td style="border-right: none">TOTAL:</td>
+              <td style="border-left: none">
+                $<span class="total-price">0</span>.00
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <p>CopyRight 2020 &copy; All Right Reserved</p>
+      </div>
+    </footer>
+
+    <script src="cart.js"></script>
+  </body>
+</html>
